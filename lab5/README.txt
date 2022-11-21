@@ -1,0 +1,3 @@
+code文件夹里为处理的图片和matlab代码
+打开code文件夹中的main.m运行，即可看到结果
+Test Result.pdf中有我演示的两组输出结果
