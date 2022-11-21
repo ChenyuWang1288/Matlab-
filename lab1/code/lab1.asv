@@ -1,0 +1,3 @@
+m = input('m = ');
+n = input('n = ');
+rand(m,n)

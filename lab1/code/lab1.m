@@ -1,0 +1,12 @@
+clear;clc;
+m = input('m = ');
+n = input('n = ');
+A = rand(m,n);
+T = Trans_M(A, m, n);
+disp(T);
+min = find_min(A, m, n);
+disp(min);
+max = find_max(A, m, n);
+disp(max);
+sortArray = sort_matrix(A, m, n);
+disp(sortArray);
