@@ -1,0 +1,15 @@
+I = imread('test3.png');
+I = imresize(I, [256, 256]);
+I_Huffman = Huffman(I);
+save('I_Huffman.mat',"I_Huffman");
+I_Haar_Huffman = Huffman(Haar(I));
+save('I_Haar_Huffman.mat', "I_Haar_Huffman");
+subplot(1, 3, 1);
+imshow(I);
+xlabel('(a)原图');
+subplot(1, 3, 2);
+imshow(Huffman_de(I));
+xlabel('(b)原图Huffman压缩');
+subplot(1, 3, 3);
+imshow(Huffman_de(Haar(I)));
+xlabel('(c)Haar小波变换后Huffman压缩');
