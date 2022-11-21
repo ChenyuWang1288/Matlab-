@@ -1,0 +1,8 @@
+Test Result.pdf中为测试结果
+原图片为code文件夹中的today.png
+code文件夹中有实验的代码以及处理后的图片
+运行main.m可以得到四个实验结果
+TransToGrey函数将RGB图像转为灰度图像
+TransToBit函数将RGB图像转为二值图像
+GetGreyPixelPlot统计灰度图像中的像素点分布并画图
+GetBitPixelPlot统计二值图像中的像素点分布并画图

@@ -1,0 +1,12 @@
+clc;clear;
+f1 = figure;
+f2 = figure;
+f3 = figure;
+f4 = figure;
+A = imread('today.png');
+TransToGrey(A, f1);
+GreyA = imread('result.png');
+GetGreyPixelPlot(GreyA, f3);
+TransToBit(GreyA, f2);
+BitA = imread('bitResult.tif');
+GetBitPixelPlot(BitA,f4);
